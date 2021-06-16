@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Завдання 2</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+</head>
+<body>
+        <div class="figure">
+            <div class="bord">
+                <div class="paralelepiped" id="paralelepiped"></div>
+            </div>
+
+            <div class="calc">
+                <div class="name">Paralelepiped</div>
+                    <div class="image"><img src="par.png" alt="paralelepiped"></div>
+                <div class="row">
+                    <div class="des">A:</div>
+                    <div class="inp"><input type="text" id="paralelepiped_a"></div>
+                    <div class="des">B:</div>
+                    <div class="inp"><input type="text" id="paralelepiped_b"></div>
+                    <div class="des">Angle:</div>
+                    <div class="inp"><input type="text" id="paralelepiped_angle"></div>
+                    <div class="des">Area:</div>
+                    <div class="inp"><input type="text" id="paralelepiped_area" placeholder="-"disabled>
+                    <div class="des">H:</div>
+                    <div class="inp"><input type="text" id="paralelepiped_h" placeholder="-" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+        <div class="figure">
+            <div class="bord">
+                <div class="circle" id="circle"></div>
+            </div>
+            <div class="calc">
+                <div class="row">
+                    <div class="name">Circle</div>
+                    <div class="image"><img src="circle.png" alt="circle"></div>
+                    <div class="des">R:</div>
+                    <div class="inp"><input type="text" id="circle_r"></div>
+                    <div class="des">Area:</div>
+                    <div class="inp"><input type="text" id="circle_area" placeholder="-" disabled></div>
+                    <div class="des">L:</div>
+                    <div class="inp"><input type="text" id="circle_l" placeholder="-" disabled></div>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="figure">
+            <div class="bord">
+                <div class="ellipse" id="ellipse"></div>
+            </div>
+            <div class="calc">
+                <div class="row">
+                    <div class="name">Ellipse</div>
+                    <div class="image"><img src="ellipse.png" alt="ellipse"></div>
+                    <div class="des">Horizontal R:</div>
+                    <div class="inp"><input type="text" id="ellipse_hr"></div>
+                    <div class="des">Vertical R:</div>
+                    <div class="inp"><input type="text" id="ellipse_vr"></div>
+                    <div class="des">Area:</div>
+                    <div class="inp"><input type="text" id="ellipse_area" placeholder="-" disabled></div>
+                    <div class="des">L:</div>
+                    <div class="inp"><input type="text" id="ellipse_l" placeholder="-" disabled></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="figure" >
+            <div class="bord">
+                <div class="square" id="square"></div>
+            </div>
+            <div class="calc">
+                <div class="row">
+                    <div class="name">Square</div>
+                    <div class="image"><img src="square.png" alt="square"></div>
+                    <div class="des">A:</div>
+                    <div class="inp"><input type="text" id="square_a"></div>
+                    <div class="des">Diagonal:</div>
+                    <div class="inp"><input type="text" id="square_diag" placeholder="-" disabled></div>
+                    <div class="des">Area:</div>
+                    <div class="inp"><input type="text" id="square_area" placeholder="-" disabled></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="figure">
+            <div class="bord">
+                <div class="rectangle" id="rectangle"></div>
+            </div>
+            <div class="calc">
+                <div class="row">
+                    <div class="name">Rectangle</div>
+                    <div class="image"><img src="rectangle.png" alt="rectangle"></div>
+                    <div class="des">A:</div>
+                    <div class="inp"><input type="text" id="rectangle_a"></div>
+                    <div class="des">B:</div>
+                    <div class="inp"><input type="text" id="rectangle_b"></div>
+                    <div class="des">Diagonal:</div>
+                    <div class="inp"><input type="text" id="rectangle_diag" placeholder="-" disabled></div>
+                    <div class="des">Area:</div>
+                    <div class="inp"><input type="text" id="rectangle_area" placeholder="-" disabled></div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="figure">
+            <div class="bord">
+                <div class="right_triangle" id="right_triangle"></div>
+            </div>
+            <div class="calc">
+                <div class="row">
+                    <div class="name">Right triangle</div>
+                    <div class="image"><img src="triangle.png" alt="triangle"></div>
+                    <div class="des">A:</div>
+                    <div class="inp"><input type="text" id="right_triangle_a"></div>
+                    <div class="des">B:</div>
+                    <div class="inp"><input type="text" id="right_triangle_b"></div>
+                    <div class="des">C:</div>
+                    <div class="inp"><input type="text" id="right_triangle_c" placeholder="-" disabled></div>
+                    <div class="des">∠А:</div>
+                    <div class="inp"><input type="text" id="right_triangle_cut_a" placeholder="-"disabled></div>
+                    <div class="des">∠B:</div>
+                    <div class="inp"><input type="text" id="right_triangle_cut_b" placeholder="-"disabled></div>
+                    <div class="des">∠C:</div>
+                    <div class="inp"><input type="text" id="right_triangle_cut_c" placeholder="-"disabled></div>
+                    <div class="des">Area:</div>
+                    <div class="inp"><input type="text" id="right_triangle_area" placeholder="-"disabled></div>
+                    <div class="des">H:</div>
+                    <div class="inp"><input type="text" id="right_triangle_h" placeholder="-" disabled>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <input type='submit' value='Calculate' onClick='start()' style="font-size: 25px; font-weight: bold;" />
+        </div>
+    </div>
+
+</body>
+</html>
